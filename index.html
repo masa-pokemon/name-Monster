@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>モンスターバトル</title>
+    <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="640">
+    <meta http-equiv="cleartype" content="on">
+    <meta content="適当に入れた文字からモンスターを作成＆バトル" name="description">
+    <meta property="og:title" content="モンスターバトル">
+    <meta property="og:description" content="適当に入れた文字からモンスターを作成＆バトル">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://masa-pokemon.github.io/name-Monster/">
+    <meta property="og:image" content="https://masa-pokemon.github.io/name-Monster/assets/ogp/1200x630.png">
+    <meta property="og:site_name" content="モンスターバトル">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        image-rendering: optimizeSpeed;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -o-crisp-edges;
+        image-rendering: crisp-edges;
+        -ms-interpolation-mode: nearest-neighbor;
+        image-rendering: pixelated;
+        background-color:#000
+    }
+
+    #content, canvas {
+        width: 320px !important;
+        height: 480px !important;
+        background-color: #000;
+        margin:auto
+    }
+
+    #content {
+        position:relative
+    }
+
+    #content input#inputRank::placeholder {
+        color:#a87b22
+    }
+
+    @media screen and (max-width: 750px) {
+        #content, canvas {
+            width: 100% !important;
+            height:auto !important
+        }
+
+        #content input {
+            top:100px !important
+        }
+
+        #content input#inputRank {
+            top:410px !important
+        }
+    }
+
+    @media screen and (min-width: 751px) {
+        #content input {
+            width: 80% !important;
+            top: 84px
+        }
+    }
+    </style>
+</head>
+<body>
+    <style media="screen" type="text/css">
+    @font-face {
+        font-family: font1;
+        src: url(assets/font/PixelMplus10-Regular.ttf);
+        font-weight: 400;
+        font-weight: 400
+    }
+    </style>
+    <div style="font-family:font1;position:absolute;left:-1000px;visibility:hidden">.</div>
+    <div id="content" style="display:block;width:100%;text-align:center"></div>
+    <script>
+    let global_DB;
+    let global_roomID;
+    </script>
+    <script type="text/javascript" src="./js/bundle.js?28a9fc30bf54bf10a594"></script>
+</body>
+</html>

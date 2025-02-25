@@ -1,0 +1,203 @@
+{
+    "ja":{
+        "TitleScene":{
+            "menu":{
+                "menu1": "モンスターさくせい",
+                "menu2": "モンスターをみる",
+                "menu3": "とうぎじょう",
+                "menu4": "チャンピオンにいどむ",
+                "menu5": "モンスターずかん"
+            },
+            "twitterLogin":"Twitterアカウントでログイン",
+            "twitterLogout": "ログアウト"
+        },
+        "MakeMonsterScene":{
+            "title": "モンスター作成",
+            "attention": "※12文字以内",
+            "enterButton": "決定",
+            "saveButton": "保存",
+            "resetButton": "もう一度",
+            "goToBattleArena": "とうぎじょうでたたかう",
+            "goToChampion": "チャンピオンにいどむ"   
+        },
+        "BattleMonsterScene":{
+            "turn": "ターン",
+            "winCount": "れんしょう",
+            "continue": "つづける",
+            "quit": "やめる",
+            "quitBattle": "試合をやめる",
+            "quitQuestion": "試合をやめますか？",
+            "goToTitle": "タイトルへ",
+            "onceAgain": "もういちど",
+            "firstWin": "0れんしょう",
+            "start": "せんとうかいし！",
+            "congratulations": "おめでとうございます！",
+            "defaultResultWin":"000連勝しました。",
+            "ResultWin1": "",
+            "ResultWin2": "連勝しました。",
+            "attack": " のこうげき！",
+            "recite0": " は",
+            "recite1": "",
+            "recite2": "をとなえた。",
+            "defeated1": "",
+            "defeated2": " をたおした！",
+            "lost1": "",
+            "lost2": " はまけてしまった。",
+            "miss": "ミス！よけられてしまった！",
+            "critical_effect!": "クリティカル＆こうかはばつぐん！",
+            "damage1":"",
+            "damage2":"のダメージをあたえた！",
+            "critical": "クリティカルヒット！！",
+            "effect": "こうかはばつぐんだ！",
+            "miss2": "ミス！",
+            "batttleCount1": "第",
+            "batttleCount2": "試合",
+            "batttleCount3": "",
+            "batttleCount4": "のとうじょうです！"
+        },
+        "ChanpionBattleScene": {
+            "goToChampion": "チャンピオンにいどむ",
+            "goToTitle": "タイトルへ",
+            "challenge": "ちょうせんする",
+            "rankNumber1": "第",
+            "rankNumber2": "位",
+            "buttonRegistration": "とうろくする",
+            "buttonQuit":"やめる",
+            "buttonBackTitle":"タイトルにもどる",
+            "RegistrationFin": "とうろくが完了しました。",
+            "EnterTheOwnersName":"オーナー名を入れてモンスターをとうろくしましょう！",
+            "EnterRank0": "ランキングに入りました！",
+            "EnterRank1": "ランキング",
+            "EnterRank2": "位に入りました！",
+            "myMonsterWindow": "ちょうせんしゃ",
+            "owner": "オーナー"
+        },
+        "MonsterZukanScene":{
+            "title": " のずかん",
+            "buttonClose": "とじる"
+        },
+        "Common":{
+            "status": {
+                "hp": "HP",
+                "attack": "こうげき",
+                "defense": "ぼうぎょ",
+                "wise": "かしこさ",
+                "speed": "すばやさ",
+                "luck": "うんのよさ"
+            },
+            "ui":{
+                "titleBack": "タイトルにもどる",
+                "loading": "ロード中...",
+                "titleTranslation": "言語選択",
+                "buttonTranslation": "▶︎言語",
+                "buttonClose": "閉じる"
+            },
+            "magic":{
+                "fire": "ファイヤ",
+                "thunder":"サンダ",
+                "water":"ワーター"
+            }
+        }     
+    },
+    "en":{
+        "TitleScene":{
+            "menu":{
+                "menu1": "Creat monster",
+                "menu2": "Watch Monster",
+                "menu3": "Battle Arena",
+                "menu4": "Challenge the champion",
+                "menu5": "Monster Book"
+            },
+            "twitterLogin":"Twitter account Login",
+            "twitterLogout": "Logout"
+        },
+        "MakeMonsterScene":{
+            "title": "Create Monster",
+            "attention": "*12 characters or less",
+            "enterButton": "Enter",
+            "saveButton": "Save",
+            "resetButton": "Again",
+            "goToBattleArena": "Go Battle Arena",
+            "goToChampion": "Challenge the champion"
+        },
+        "BattleMonsterScene":{
+            "turn": "TURN",
+            "winCount": " WIN",
+            "continue": "CONTINUE",
+            "quit": "QUIT",
+            "quitBattle": "QUIT BATTLE",
+            "quitQuestion": "QUIT BATTLE?",
+            "goToTitle": "Go Title",
+            "onceAgain": "AGAIN",
+            "firstWin": "0 WIN",
+            "start": "Battle Start",
+            "congratulations": "Congratulations!",
+            "defaultResultWin":"000連勝しました。",
+            "ResultWin1": "won",
+            "ResultWin2": " consecutive games",
+            "attack": "'s Attack",
+            "recite0": " ",
+            "recite1": "recite ",
+            "recite2": "",
+            "defeated1": "Defeated ",
+            "defeated2": "",
+            "lost1": "Lost ",
+            "lost2": "",
+            "miss": "Miss! Evaded!",
+            "critical_effect!": "Excellent critical & effect!",
+            "damage1":"Inflicted ",
+            "damage2":" damage",
+            "critical": "Excellent critical!!",
+            "effect": "Excellent effect!",
+            "miss2": "MISS!",
+            "batttleCount1": "Battle ",
+            "batttleCount2": "",
+            "batttleCount3": "Appearance of ",
+            "batttleCount4": ""
+        },
+        "ChanpionBattleScene": {
+            "goToChampion": "Challenge the champion",
+            "goToTitle": "Go Title",
+            "challenge": "Challenge",
+            "rankNumber1": "No.",
+            "rankNumber2": "",
+            "buttonRegistration": "Sign up",
+            "buttonQuit":"Quit",
+            "buttonBackTitle":"Back To Title",
+            "RegistrationFin": "Registration has been completed.",
+            "EnterTheOwnersName":"Enter the owner name and register the monster!",
+            "EnterRank0": "Entered the ranking!",
+            "EnterRank1": "In the ranking No.",
+            "EnterRank2": "!",
+            "myMonsterWindow": "challenger",
+            "owner": "owner"
+        },
+        "MonsterZukanScene":{
+            "title": "'s book",
+            "buttonClose": "close"
+        },
+        "Common":{
+            "status": {
+                "hp": "HP",
+                "attack": "Attack",
+                "defense": "defense",
+                "wise": "Wise",
+                "speed": "Speed",
+                "luck": "Luck"
+            },
+            "ui":{
+                "titleBack": "back to title",
+                "loading": "LOADING...",
+                "titleTranslation": "language select",
+                "buttonTranslation": "▶︎language",
+                "buttonClose": "close"
+            },
+            "magic":{
+                "fire": "FIRE",
+                "thunder":"THUNDER",
+                "water":"WATER"
+            }
+        }
+
+    }
+}

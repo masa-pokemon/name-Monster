@@ -80533,14 +80533,13 @@ PERFORMANCE OF THIS SOFTWARE.
         }
     }
       , I = {
-        apiKey: "AIzaSyAwEXEnTKrMnRg6GCHqQYJW20onr5Ug3rM",
-        authDomain: "lets-go-to-school-login.firebaseapp.com",
-        databaseURL: "https://lets-go-to-school-login-default-rtdb.firebaseio.com",
-        projectId: "lets-go-to-school-login",
-        storageBucket: "lets-go-to-school-login.appspot.com",
-        messagingSenderId: "781949835802",
-        appId: "1:781949835802:web:75f568ae3454e623bf8fa3",
-        measurementId: "G-MHMHLRSE3C"
+        apiKey: "AIzaSyAGnKxHG6FEEi7SMxmiR1K6DNQzNpYHs_k",
+        authDomain: "okusurikanriapp-5ae58.firebaseapp.com",
+        projectId: "okusurikanriapp-5ae58",
+        storageBucket: "okusurikanriapp-5ae58.firebasestorage.app",
+        messagingSenderId: "778587781611",
+        appId: "1:778587781611:web:4d741c2ba73d65cf7941ae",
+        measurementId: "G-QF4W9GC9TG"
     };
     a.a.initializeApp(I);
     const C = {

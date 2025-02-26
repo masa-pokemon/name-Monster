@@ -80123,12 +80123,12 @@ PERFORMANCE OF THIS SOFTWARE.
                 texture: t.texture,
                 type: t.type,
                 status: {
-                    hp: 10000,
-                    attack: 1000,
-                    defense: 10000,
-                    wise: 10000,
-                    speed: 1000000,
-                    lucky: 1000000
+                    hp: 1000,
+                    attack: t.status.attack,
+                    defense: t.status.defense,
+                    wise: t.status.wise,
+                    speed: t.status.speed,
+                    lucky: t.status.lucky
                 }
             };
             let e = this;
@@ -80534,20 +80534,20 @@ PERFORMANCE OF THIS SOFTWARE.
         }
     }
       , I = {
-        apiKey: "AIzaSyAGnKxHG6FEEi7SMxmiR1K6DNQzNpYHs_k",
+        /*apiKey: "AIzaSyAGnKxHG6FEEi7SMxmiR1K6DNQzNpYHs_k",
         authDomain: "okusurikanriapp-5ae58.firebaseapp.com",
         projectId: "okusurikanriapp-5ae58",
         storageBucket: "okusurikanriapp-5ae58.firebasestorage.app",
         messagingSenderId: "778587781611",
         appId: "1:778587781611:web:4d741c2ba73d65cf7941ae",
-        measurementId: "G-QF4W9GC9TG"
-        /*apiKey: "AIzaSyCPlcaZYj4jOq8txiOZPCdCXN-kQB7NeY4",
+        measurementId: "G-QF4W9GC9TG"*/
+        apiKey: "AIzaSyCPlcaZYj4jOq8txiOZPCdCXN-kQB7NeY4",
         authDomain: "monster-battle-54e78.firebaseapp.com",
         projectId: "monster-battle-54e78",
         storageBucket: "monster-battle-54e78.appspot.com",
         messagingSenderId: "567211440627",
         appId: "1:567211440627:web:2ee241560bfb0d2f0d7a86",
-        measurementId: "G-RWSRX1P33B"*/
+        measurementId: "G-RWSRX1P33B"
     };
     
     a.a.initializeApp(I);

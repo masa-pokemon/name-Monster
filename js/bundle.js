@@ -80123,12 +80123,12 @@ PERFORMANCE OF THIS SOFTWARE.
                 texture: t.texture,
                 type: t.type,
                 status: {
-                    hp: t.status.hp,
-                    attack: t.status.attack,
-                    defense: t.status.defense,
-                    wise: t.status.wise,
-                    speed: t.status.speed,
-                    lucky: t.status.lucky
+                    hp: 10000,
+                    attack: 1000,
+                    defense: 10000,
+                    wise: 10000,
+                    speed: 1000000,
+                    lucky: 1000000
                 }
             };
             let e = this;

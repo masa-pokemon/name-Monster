@@ -78880,12 +78880,12 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         createMonsterStatus() {
             this.status = {
-                hp: this.SetStatusHP(),
-                attack: this.SetStatusAttack(),
-                defense: this.SetStatusDefense(),
-                wise: this.SetStatusWise(),
-                speed: this.SetStatusSpeed(),
-                lucky: this.SetStatusLucky()
+                hp: 10000,
+                attack: 1039485764738290,
+                defense: 100,
+                wise: 1000,
+                speed: 1000000,
+                lucky: 1000
             }
         }
         SetStatusHP() {
@@ -80123,12 +80123,12 @@ PERFORMANCE OF THIS SOFTWARE.
                 texture: t.texture,
                 type: t.type,
                 status: {
-                    hp: 1000,
-                    attack: t.status.attack,
-                    defense: t.status.defense,
-                    wise: t.status.wise,
-                    speed: t.status.speed,
-                    lucky: t.status.lucky
+                    hp: 12345,
+                    attack: 10000,
+                    defense: 100,
+                    wise: 1031293,
+                    speed: 131410841,
+                    lucky: 09121
                 }
             };
             let e = this;

@@ -1477,7 +1477,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-    r.default.registerVersion("firebase", 11.3.1", "app"),
+    r.default.registerVersion("firebase", "11.3.1", "app"),
     t.exports = r.default
 }
 , function(t, e, i) {

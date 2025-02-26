@@ -80506,6 +80506,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 key: "MonsterCheckScene"
             })
         }
+        console.log(this.registry.list.monster1.status);
         create() {
             this.EXPANSION = 2,
             this.cameras.main.setBackgroundColor("#000000"),

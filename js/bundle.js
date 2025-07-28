@@ -78877,7 +78877,6 @@ PERFORMANCE OF THIS SOFTWARE.
             }
             this.monster_type = c,
             this.createMonsterStatus()
-            console.log(GetMonsterObject());
         }
         createMonsterStatus() {
             this.status = {
